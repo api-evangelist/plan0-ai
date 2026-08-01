@@ -1,7 +1,30 @@
 aid: plan0-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plan0-ai.png
 name: Plan0 Ai
-description: Plan0 Ai is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plan0 AI is a real estate construction technology company that applies AI to
+  preconstruction cost estimation and design analysis. Its platform turns
+  architectural drawings into detailed cost estimates and 3D models in roughly
+  30 minutes rather than the traditional two-week cycle, and adds automated
+  takeoff and pricing, value-engineering scenario simulation, and predictive
+  analytics. Plan0 AI serves real estate developers underwriting and making
+  preconstruction design decisions, general contractors producing business-
+  development estimates and cost forecasts, and investors validating pro-formas
+  and benchmarking. Surfaced as a Y Combinator portfolio company and added to
+  the API Evangelist network. As of this enrichment pass the company publishes a
+  marketing and demo-booking website only, with no public API, developer
+  documentation, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/plan0-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Construction
+- Real Estate
+- Cost Estimation
+- Preconstruction
+- Value Engineering
+- Analytics
 apis: []
+common:
+- type: Website
+  url: https://plan0.ai
+- type: TermsOfService
+  url: https://plan0.ai/terms/
+- type: PrivacyPolicy
+  url: https://plan0.ai/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
