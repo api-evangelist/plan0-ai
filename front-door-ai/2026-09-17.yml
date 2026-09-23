@@ -1,0 +1,27 @@
+# Front Door AI Index — plan0-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: plan0-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: plan0.ai
+  final_host: plan0.ai
+  ownership: own
+  owner: plan0-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 5.76
+  words: 521
+  tiers:
+    agentic: 1
+    core: 2
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 2
+    intelligence: 1
+    prompts: 1
