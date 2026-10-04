@@ -50,7 +50,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Construction
-- Real-Estate
+- Real Estate
 - Cost Estimation
 - Preconstruction
 - Value Engineering
@@ -64,6 +64,7 @@ tags_raw:
 - Preconstruction
 - Value Engineering
 - Analytics
+- Real-Estate
 apis: []
 common:
 - type: Website
