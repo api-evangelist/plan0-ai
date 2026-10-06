@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -67,6 +67,8 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- url: https://plan0.ai/blog/
+  type: Blog
 - type: Website
   url: https://plan0.ai
 - type: TermsOfService
