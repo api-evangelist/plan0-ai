@@ -67,6 +67,10 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- type: Pricing
+  url: https://plan0.ai/pricing
+- type: Plans
+  url: plans/plan0-ai-plans-pricing.yml
 - url: https://plan0.ai/blog/
   type: Blog
 - type: Website
